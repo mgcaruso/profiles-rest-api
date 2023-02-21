@@ -1,1 +1,3 @@
-print('hello world')
+import sys,os
+
+print(os.path.abspath(sys.executable))
